@@ -1,3 +1,15 @@
 <h1>
   {{title}}
 </h1>
+
+<!--<nav>
+  <a [routerLink]="'/compose'" routerLinkActive="active">Compose</a>
+  <a [routerLink]="'/conversation'" routerLinkActive="active">Conversation</a>
+  <a [routerLink]="'/conversations'" routerLinkActive="active">Conversations</a>
+  <a [routerLink]="'/message'" routerLinkActive="active">Message</a>
+  <a [routerLink]="'/messages'" routerLinkActive="active">Messages</a>
+  <a [routerLink]="'/popup'" routerLinkActive="active">Popup</a>
+</nav>-->
+
+<router-outlet></router-outlet>
+<router-outlet name="popup"></router-outlet>
